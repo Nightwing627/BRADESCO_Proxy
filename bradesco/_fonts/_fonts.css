@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'newjunebold';
+    src: url('newjunebold.woff2') format('woff2'),
+         url('newjunebold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'newjunefine';
+    src: url('newjunefine.woff2') format('woff2'),
+         url('newjunefine.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'newjuneheavy';
+    src: url('newjuneheavy.woff2') format('woff2'),
+         url('newjuneheavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'newjunelight';
+    src: url('newjunelight.woff2') format('woff2'),
+         url('newjunelight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'newjunemedium';
+    src: url('newjunemedium.woff2') format('woff2'),
+         url('newjunemedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'newjuneregular';
+    src: url('newjuneregular.woff2') format('woff2'),
+         url('newjuneregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'newjunesemibold';
+    src: url('newjunesemibold.woff2') format('woff2'),
+         url('newjunesemibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

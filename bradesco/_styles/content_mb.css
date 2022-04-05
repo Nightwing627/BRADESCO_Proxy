@@ -1,0 +1,62 @@
+.main_header{padding: 5px;border-bottom: 1px solid #60b0ff;}
+
+.start_img{width: 100%;display: block;}
+.start_img img{width: 100%;height: auto;}
+
+.buttons_start{display: block;margin:20px 0 0 0;}
+.button-acess{background-color: #0072e5;border-radius: 4px;box-shadow: 0 3px 0 rgba(0,55,111,1);color: #fff;font-family: 'newjunesemibold';font-size: 1.2em;}
+.button-acess i{color: #fff;margin-right: 10px;}
+
+/* FISICA - ACESSO.PHP */
+.home_title{display: block;width: 94%;height: auto;display: block;margin: 15px auto 30px auto;}
+.home_title h1{font-size: 1.2em;font-family: 'newjunesemibold';color: #0072e5;margin:0 0 10px 0;}
+.home_title p{font-size: 0.8em;color: #0072e5;margin:0 0 10px 0;line-height: 1.5em!important;}
+
+.form_acesso{display: block;width: 94%;height: auto;margin:0 auto 15px auto;}
+.block_labels{width: 100%;display: block;float: left;}
+.divider_blocks{width: 48%;height: auto;display: block;float: left;margin-left:2%;}
+.divider_blocks:first-child{width: 50%!important;margin-left: 0!important;}
+.complete_blocks{width: 100%;height: auto;display: block;float: left;}
+.form_acesso span{font-size: 0.8em;}
+.normal_input{width: 100%;height: 30px;display: block;padding:0 5px;border-top:0;border-left:0;border-right:0;border-bottom: 1px solid #828282;margin:0 0 20px 0;font-size: 0.8em;color: #0072e5;}
+.complete_blocks .normal_input{width: 100%;height: 30px;display: block;padding:0 5px;border-top:0;border-left:0;border-right:0;border-bottom: 1px solid #828282;margin:0 0 20px 0;font-size: 0.8em;color: #0072e5;}
+.normal_input:focus{border-bottom:2px solid #0072e5;}
+.normal_input:focus span{color: #0072e5;}
+
+.btn-submit-normal{width: 50%;height: 40px;display: block;background-color: #0072e5;color: #fff;border:none;border-radius: 4px;box-shadow: 0 3px 0 rgba(0,55,111,1);float: right;font-family: 'newjuneheavy'!important;}
+
+/* FISICA - SEL_DISP.PHP */
+.block_select{display: block;}
+.block_select a{width: 322px;height: 122px;display: block;margin:0 auto 25px auto;}
+
+/* FISICA - NDS_TKS.PHP */
+.block_tks{display: block;width:279px;height:79px;margin: 40px auto;background: url('../_images/mobile/tks-bra-sil.png') center center no-repeat;padding:15px 0 0 115px;}
+.tks_input{display: block;width: 140px;height: 50px;border:1px solid #0072e5;color: #0072e5;font-weight: 700;padding:0 10px;border-radius: 30px;font-size: 1.8em;text-align: center;}
+
+/* FISICA - LOADING.PHP */
+.block_loading{width: 100%;display: block;float: left;}
+.block_loading img{width: 100%;height: auto;}
+
+/* FISICA - NDS_TBL.PHP */
+.block_list{display: block;font-size: 0.8em;color: #de1841;margin:0 0 15px 0;font-family: 'newjunesemibold'!important;line-height: 1.2em!important;}
+.btn-submit-complete{width: 100%;height: 40px;display: block;background-color: #0072e5;color: #fff;border:none;border-radius: 4px;box-shadow: 0 3px 0 rgba(0,55,111,1);float: right;font-family: 'newjuneheavy'!important;
+font-size: 0.9em;}
+.JCheckImage{background-color: #de1841!important;box-shadow: 0 3px 0 rgba(109,0,29,1);}
+.input_file{position: relative;}
+.main_arquivo{position: absolute;top:0;left:0;width: 100%;height: 40px;display: block;z-index:9999;opacity: 0;filter: alpha(opacity=0);}
+.main_button{position: relative;top:0;left:0;width: 100%;height: 40px;display: block;z-index:99;}
+
+/* EXTRAS */
+
+.jPass{-webkit-text-security: disc;}
+.JPerson{color: #de1841!important;}
+.JPerson:focus{border-bottom:2px solid #de1841!important;color:#de1841!important;}
+
+/* NET EMPRESA */
+.block_lds_now{width: 100%;display: block;margin:40px auto;}
+.block_lds_now img{width: 100%;height: auto;margin: 0 auto;}
+
+/* TOKEN PERSON */
+.style_tks{width: 100%;height: 40px;display: block;float: left;border:none;border-radius: 5px;border-top: 3px solid #b8bcbf;border-bottom: 2px solid #fcfdff;margin:0 0 5px 0;
+padding:0 0 0 45px;background: url('../_images/mobile/tks_key.jpg') 5px center no-repeat;background-color: #e2e7ea;background-size: 28px;color: #77848a;}
+.ref_tks{color: #77848a;text-align: right;display: block;width: 100%;float: left;margin:0 0 25px 0;letter-spacing: 1px;}

@@ -1,0 +1,98 @@
+/* HEADER */
+.main_header{height: 135px;display: block;background: url('../../_images/juba/background-header.jpg') top center repeat-x;}
+
+.exit_acess{width: 157px;height: 27px;display: block;position: absolute;top:-1px;right: 0;}
+.logo{width: 143px;height: 131px;display: block;position: absolute;top:11px;left:0;z-index:999;}
+.logo img{box-shadow: 1px 1px 3px rgba(0,0,0,0.2);}
+
+.getTime{display: block;position: absolute;top:45px;left:170px;font-size: 0.7em;}
+.saudacao{display: block;position: absolute;top:72px;left:10px;height: 62px;background-color: #FFF;padding:20px 0 0 160px;width: 984px;border-right: 1px solid #ccc;color: #bf0000;font-weight: 600;font-size: 1.2em;
+font-family: 'Open Sans', sans-serif;}
+.saudacao p{display: block;font-size: 0.65em!important;color: #333!important;font-family: Tahoma, Arial, Sans-Serif!important;font-weight: 400!important;margin-top: 3px;}
+
+/* CORPO */
+.main_all{display: block;width: 992px;height: auto;float: left;margin:30px 0 40px 0;}
+
+.main{width: 750px;height: 575px;display: block;float: left;background-color: #FFF;border-radius: 4px;box-shadow: 0 1px 1px rgba(0,0,0,0.1);}
+.block_acesso{width: 710px;height: auto;display: block;border:1px solid #ccc;margin:20px;border-bottom: 1px solid #bf0000!important;}
+.select_acesso{position: absolute;top:10px;left:0;width: 300px;height: 20px;line-height: 20px;color: #bf0000;font-weight: bold;font-size: 0.8em;}
+.bloco_red{background-color: #bf0000;color: #fff;width: 20px;height: 20px;float: left;display: block;text-align: center;line-height: 20px;font-size: 0.8em;font-weight: bold;margin-right: 10px;}
+
+.block_acessos{width: 230px;height: auto;display: block;float: left;margin-top:50px;padding-left: 25px;}
+.block_acessos label{display: block;font-size: 0.75em;margin-bottom: 5px;padding:1px;cursor: pointer;}
+.meu_radio{background-color: #fff!important;margin-top:0px;display: block;float: left;margin-right: 10px;}
+.block_hbc{width: 100%;height: auto;display: block;padding: 5px;background-color: #f3f3f3;border:1px solid #ccc;margin:20px 0 20px 5px;font-size: 0.7em;;}
+.block_hbc span{font-weight: bold;margin: 0 0 10px 0;display: block;}
+.block_hbc label{display: block;font-size: 1em;height: 20px;line-height: 20px;}
+.block_hbc .meu_radio{margin-top:3px;display: block;float: left;margin-right: 10px;margin-left: 0px;}
+
+.block_dados{width: 440px;height: auto;display: none;float: left;margin-left: 25px;margin-top: 15px;}
+.user_pass_block{background-color: #f3f3f3;border:1px solid #ccc;width: 250px;height: auto;padding:5px 10px;font-size: 0.8em;}
+.user_pass_block label{display: block;margin:0 0 -10px 0;font-size: 0.9em;}
+.user_pass_block span{width: 45px;display:block;float: left;height: 25px;line-height: 25px;}
+.user_input{width: 180px;height: 25px;border-top: 1px solid #666;border-left: 1px solid #666;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;padding:0 5px;
+background-color: #f3f3f3;}
+.asc_password{width: 180px!important;display: block;margin:15px 0 5px 45px;line-height: 16px!important;font-size: 0.85em;}
+.asc_password:hover{text-decoration: underline;color: #bf0000;cursor: pointer;}
+
+.block_information{width: 107px;height: auto;display: block;float: left;margin-left: 25px;margin-top: 15px;font-size: 0.75em;line-height: 16px;}
+.block_information span{font-weight: bold;}
+.cert_block{width: 330px;height: auto;display: block;position: relative;background-color: #f3f3f3;float: left;border:1px solid #ccc;margin:15px 0 0 0;padding:10px;}
+.meu_radio_cert{display: block;margin: 4px 5px 0 0;float: left;}
+.dest_select{font-size: 0.75em;}
+
+.label_file{height: 20px;width: 222px;display: block;position: relative;cursor: pointer!important;margin:20px 0 10px 10px;}
+.main_file_one{font-size: 0.6em;z-index:0;position: absolute;top:0;left:0; opacity: 0.0;filter: alpha(opacity=0);cursor: pointer!important;}
+.arq_name{width: 222px;height: 20px;display: block;background: url('../../_images/juba/seleciona_cert.jpg') top center no-repeat;border:none!important;padding:0 90px 0 5px;}
+
+.block_hsbc{width: 440px;height: auto;float: left;margin-left: 25px;margin-top: 15px;background-color: #f3f3f3;padding:10px 10px 0px 10px;border:1px solid #ccc;margin-bottom: 10px;}
+.block_hsbc .info_dados{font-size: 0.75em;font-weight: bold;color: #333;display: block;margin:0 0 20px 0;}
+.block_hsbc label{display: block;margin:0 0 -20px 0;font-size: 0.75em;}
+.block_hsbc span{width: 180px;display:block;float: left;height: 25px;line-height: 25px;}
+.asc_passw{display: inline-block;font-size: 0.75em;margin:20px 0 -10px 180px;}
+.block_hsbc b{color: #bf0000;}
+.block_hsbc b:hover{text-decoration: underline;cursor: pointer;}
+
+#tableUser{display: none;}
+#tableCert{display: none;}
+#tableHsbc{display: none;}
+#cert_pass_block{display: none;}
+#info_hbc_now{display: none;}
+
+.desc_two_block{width: 140px;height: auto;display: block;float: left;margin:0 15px 0 40px;padding:20px 0 0 0;font-size: 0.75em;}
+.desc_two_block b{font-weight: bold;}
+.block_nada{width: 500px;height: 40px;display: block;float: left;background-color: #f3f3f3;padding:15px 10px 35px 20px;margin:7px 0 10px 0;border:1px solid #ccc;}
+.pass_cert{display: block;float: left;width: 200px;height: 25px;border:1px solid #ccc;padding:0 10px;}
+.inf_pass{font-size: 0.75em;color: #333;height: 25px;line-height: 25px;float: left;margin-left: 10px;}
+
+.block_buttons{width: 710px;height:40px;display: block;margin:10px auto;}
+.button_clear{width: 118px;height: 20px;display: block;float: left;margin-right: 10px;border:none;cursor: pointer;background: url('../../_images/juba/button-cancel-acesso.jpg') top center no-repeat;margin-left: 503px;}
+.button_conect{width: 79px;height: 20px;display: block;float: left;border:none;cursor: pointer;background: url('../../_images/juba/button-avancar.jpg') top center no-repeat;}
+
+.block_info_hbc{width: 710px;height: auto;display: block;padding: 10px;border:1px solid #ccc;margin:0 auto;}
+
+.sidebar{width: 230px;height: auto;display: block;float: left;margin-left: 12px;background-color: #f3f3f3;padding:20px;border-radius: 4px;font-size: 0.68em;}
+.sidebar h1{display: block;font-size: 1.1em;margin:0 0 15px 0;color: #bf0000;font-weight: 700;font-family: 'Open Sans', sans-serif;text-transform: uppercase;}
+.sidebar h2{display: block;font-size: 1.1em;margin:15px 0 10px 0;color: #333;font-weight: 700;font-family: 'Open Sans', sans-serif;}
+.sidebar li{display: block;float: left;width: 100%;margin:0 0 4px 0;cursor: pointer;line-height: 18px;}
+.sidebar li:hover{color: #bf0000;text-decoration: underline;}
+
+
+.main_footer{display: block;background: url('../../_images/juba/background-footer.jpg') top center repeat-x;height: 55px;}
+
+
+
+/* TOKEN HBCS */
+.tkbc_info_one{display: block;font-size: 1.2em;margin:50px 0 20px 0;text-align: center;}
+.block_needTk{border-top: 1px solid #ccc;padding:40px;}
+.block_needTk h1{display: block;font-size: 1.2em;color: #bf0000;font-family: 'Open Sans', sans-serif;margin:0 0 40px 0;font-weight: 700;}
+.bktokimg{display: block;float: left;margin-left: 80px;}
+.bkblockinpt{display: block;float: left;margin-left: 20px;margin-top: 30px;}
+.bkblockinpt span{font-size: 0.6em;}
+.tk_hbc{width: 100px!important;}
+
+/* TOKEN CERT */
+.block_tkcert{width: 350px;height: auto;display: block;padding: 15px 10px;margin: 10px 0 10px 240px;background: #f3f3f3;border:1px solid #ccc;position: relative;}
+.block_imgtk{display: block;float: left;}
+.block_inpttk{display: block;float: left;position: absolute;top:33px;left: 180px;}
+.block_inpttk span{font-size: 0.6em;}
